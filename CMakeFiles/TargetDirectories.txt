@@ -1,0 +1,3 @@
+/storage/emulated/0/spaceship/CMakeFiles/rebuild_cache.dir
+/storage/emulated/0/spaceship/CMakeFiles/edit_cache.dir
+/storage/emulated/0/spaceship/CMakeFiles/spaceship.dir
