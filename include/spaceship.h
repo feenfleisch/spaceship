@@ -1,6 +1,7 @@
 #include "hull.h"
 #include "weapon.h"
 #include "shield.h"
+#include "drive.h"
 
 #include <string>
 
@@ -14,8 +15,8 @@ class spaceship
 	hull hull;
 	weapon weapon;
 	shield shield;
+	drive drive;
 	
-	int drive;
 	int mining;
 	int ores;
 

@@ -1,6 +1,11 @@
 [
 {
   "directory": "/storage/emulated/0/spaceship",
+  "command": "/data/user/0/ru.iiec.cxxdroid/files/bin/clang++   -I/storage/emulated/0/spaceship/include -I/storage/emulated/0/spaceship/src  -Wall -std=c++14 -fallow-void-main   -o CMakeFiles/spaceship.dir/src/drive.cpp.o -c /storage/emulated/0/spaceship/src/drive.cpp",
+  "file": "/storage/emulated/0/spaceship/src/drive.cpp"
+},
+{
+  "directory": "/storage/emulated/0/spaceship",
   "command": "/data/user/0/ru.iiec.cxxdroid/files/bin/clang++   -I/storage/emulated/0/spaceship/include -I/storage/emulated/0/spaceship/src  -Wall -std=c++14 -fallow-void-main   -o CMakeFiles/spaceship.dir/src/hull.cpp.o -c /storage/emulated/0/spaceship/src/hull.cpp",
   "file": "/storage/emulated/0/spaceship/src/hull.cpp"
 },

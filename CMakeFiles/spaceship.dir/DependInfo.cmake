@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/storage/emulated/0/spaceship/src/drive.cpp" "/storage/emulated/0/spaceship/CMakeFiles/spaceship.dir/src/drive.cpp.o"
   "/storage/emulated/0/spaceship/src/hull.cpp" "/storage/emulated/0/spaceship/CMakeFiles/spaceship.dir/src/hull.cpp.o"
   "/storage/emulated/0/spaceship/src/journey.cpp" "/storage/emulated/0/spaceship/CMakeFiles/spaceship.dir/src/journey.cpp.o"
   "/storage/emulated/0/spaceship/src/main.cpp" "/storage/emulated/0/spaceship/CMakeFiles/spaceship.dir/src/main.cpp.o"

@@ -122,6 +122,33 @@ spaceship/fast:
 	$(MAKE) -f CMakeFiles/spaceship.dir/build.make CMakeFiles/spaceship.dir/build
 .PHONY : spaceship/fast
 
+src/drive.o: src/drive.cpp.o
+
+.PHONY : src/drive.o
+
+# target to build an object file
+src/drive.cpp.o:
+	$(MAKE) -f CMakeFiles/spaceship.dir/build.make CMakeFiles/spaceship.dir/src/drive.cpp.o
+.PHONY : src/drive.cpp.o
+
+src/drive.i: src/drive.cpp.i
+
+.PHONY : src/drive.i
+
+# target to preprocess a source file
+src/drive.cpp.i:
+	$(MAKE) -f CMakeFiles/spaceship.dir/build.make CMakeFiles/spaceship.dir/src/drive.cpp.i
+.PHONY : src/drive.cpp.i
+
+src/drive.s: src/drive.cpp.s
+
+.PHONY : src/drive.s
+
+# target to generate assembly for a file
+src/drive.cpp.s:
+	$(MAKE) -f CMakeFiles/spaceship.dir/build.make CMakeFiles/spaceship.dir/src/drive.cpp.s
+.PHONY : src/drive.cpp.s
+
 src/hull.o: src/hull.cpp.o
 
 .PHONY : src/hull.o
@@ -320,6 +347,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... spaceship"
+	@echo "... src/drive.o"
+	@echo "... src/drive.i"
+	@echo "... src/drive.s"
 	@echo "... src/hull.o"
 	@echo "... src/hull.i"
 	@echo "... src/hull.s"

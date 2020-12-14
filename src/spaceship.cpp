@@ -12,6 +12,7 @@ void spaceship::create()
 		hull.create();
 		weapon.create();
 		shield.create();
+		drive.create();
 		distance = 1;
 		return;
 }
@@ -45,6 +46,16 @@ void spaceship::show()
 		cout << shield.is << endl;
 		gotoxy(30, 27);
 		cout << "reg: " << shield.regeneration << endl;
+		
+		gotoxy(30, 30);
+		cout << "> drive: ";
+		gotoxy(30, 32);
+		cout << drive.name;
+		gotoxy(30, 34);
+		cout << "level: " << shield.level;
+		gotoxy(30, 36);
+		cout << "range: ";
+		cout << drive.range << endl;
 		
 		gotoxy(45, 10);
 		cout << "> primary weapon: ";

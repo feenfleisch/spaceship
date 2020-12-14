@@ -56,9 +56,22 @@ include CMakeFiles/spaceship.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/spaceship.dir/flags.make
 
+CMakeFiles/spaceship.dir/src/drive.cpp.o: CMakeFiles/spaceship.dir/flags.make
+CMakeFiles/spaceship.dir/src/drive.cpp.o: src/drive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spaceship.dir/src/drive.cpp.o"
+	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spaceship.dir/src/drive.cpp.o -c /storage/emulated/0/spaceship/src/drive.cpp
+
+CMakeFiles/spaceship.dir/src/drive.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spaceship.dir/src/drive.cpp.i"
+	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /storage/emulated/0/spaceship/src/drive.cpp > CMakeFiles/spaceship.dir/src/drive.cpp.i
+
+CMakeFiles/spaceship.dir/src/drive.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spaceship.dir/src/drive.cpp.s"
+	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /storage/emulated/0/spaceship/src/drive.cpp -o CMakeFiles/spaceship.dir/src/drive.cpp.s
+
 CMakeFiles/spaceship.dir/src/hull.cpp.o: CMakeFiles/spaceship.dir/flags.make
 CMakeFiles/spaceship.dir/src/hull.cpp.o: src/hull.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spaceship.dir/src/hull.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spaceship.dir/src/hull.cpp.o"
 	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spaceship.dir/src/hull.cpp.o -c /storage/emulated/0/spaceship/src/hull.cpp
 
 CMakeFiles/spaceship.dir/src/hull.cpp.i: cmake_force
@@ -71,7 +84,7 @@ CMakeFiles/spaceship.dir/src/hull.cpp.s: cmake_force
 
 CMakeFiles/spaceship.dir/src/journey.cpp.o: CMakeFiles/spaceship.dir/flags.make
 CMakeFiles/spaceship.dir/src/journey.cpp.o: src/journey.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spaceship.dir/src/journey.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/spaceship.dir/src/journey.cpp.o"
 	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spaceship.dir/src/journey.cpp.o -c /storage/emulated/0/spaceship/src/journey.cpp
 
 CMakeFiles/spaceship.dir/src/journey.cpp.i: cmake_force
@@ -84,7 +97,7 @@ CMakeFiles/spaceship.dir/src/journey.cpp.s: cmake_force
 
 CMakeFiles/spaceship.dir/src/main.cpp.o: CMakeFiles/spaceship.dir/flags.make
 CMakeFiles/spaceship.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/spaceship.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/spaceship.dir/src/main.cpp.o"
 	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spaceship.dir/src/main.cpp.o -c /storage/emulated/0/spaceship/src/main.cpp
 
 CMakeFiles/spaceship.dir/src/main.cpp.i: cmake_force
@@ -97,7 +110,7 @@ CMakeFiles/spaceship.dir/src/main.cpp.s: cmake_force
 
 CMakeFiles/spaceship.dir/src/shield.cpp.o: CMakeFiles/spaceship.dir/flags.make
 CMakeFiles/spaceship.dir/src/shield.cpp.o: src/shield.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/spaceship.dir/src/shield.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/spaceship.dir/src/shield.cpp.o"
 	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spaceship.dir/src/shield.cpp.o -c /storage/emulated/0/spaceship/src/shield.cpp
 
 CMakeFiles/spaceship.dir/src/shield.cpp.i: cmake_force
@@ -110,7 +123,7 @@ CMakeFiles/spaceship.dir/src/shield.cpp.s: cmake_force
 
 CMakeFiles/spaceship.dir/src/spaceship.cpp.o: CMakeFiles/spaceship.dir/flags.make
 CMakeFiles/spaceship.dir/src/spaceship.cpp.o: src/spaceship.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/spaceship.dir/src/spaceship.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/spaceship.dir/src/spaceship.cpp.o"
 	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spaceship.dir/src/spaceship.cpp.o -c /storage/emulated/0/spaceship/src/spaceship.cpp
 
 CMakeFiles/spaceship.dir/src/spaceship.cpp.i: cmake_force
@@ -123,7 +136,7 @@ CMakeFiles/spaceship.dir/src/spaceship.cpp.s: cmake_force
 
 CMakeFiles/spaceship.dir/src/title.cpp.o: CMakeFiles/spaceship.dir/flags.make
 CMakeFiles/spaceship.dir/src/title.cpp.o: src/title.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/spaceship.dir/src/title.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/spaceship.dir/src/title.cpp.o"
 	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spaceship.dir/src/title.cpp.o -c /storage/emulated/0/spaceship/src/title.cpp
 
 CMakeFiles/spaceship.dir/src/title.cpp.i: cmake_force
@@ -136,7 +149,7 @@ CMakeFiles/spaceship.dir/src/title.cpp.s: cmake_force
 
 CMakeFiles/spaceship.dir/src/weapon.cpp.o: CMakeFiles/spaceship.dir/flags.make
 CMakeFiles/spaceship.dir/src/weapon.cpp.o: src/weapon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/spaceship.dir/src/weapon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/spaceship.dir/src/weapon.cpp.o"
 	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spaceship.dir/src/weapon.cpp.o -c /storage/emulated/0/spaceship/src/weapon.cpp
 
 CMakeFiles/spaceship.dir/src/weapon.cpp.i: cmake_force
@@ -149,6 +162,7 @@ CMakeFiles/spaceship.dir/src/weapon.cpp.s: cmake_force
 
 # Object files for target spaceship
 spaceship_OBJECTS = \
+"CMakeFiles/spaceship.dir/src/drive.cpp.o" \
 "CMakeFiles/spaceship.dir/src/hull.cpp.o" \
 "CMakeFiles/spaceship.dir/src/journey.cpp.o" \
 "CMakeFiles/spaceship.dir/src/main.cpp.o" \
@@ -160,6 +174,7 @@ spaceship_OBJECTS = \
 # External object files for target spaceship
 spaceship_EXTERNAL_OBJECTS =
 
+spaceship: CMakeFiles/spaceship.dir/src/drive.cpp.o
 spaceship: CMakeFiles/spaceship.dir/src/hull.cpp.o
 spaceship: CMakeFiles/spaceship.dir/src/journey.cpp.o
 spaceship: CMakeFiles/spaceship.dir/src/main.cpp.o
@@ -169,7 +184,7 @@ spaceship: CMakeFiles/spaceship.dir/src/title.cpp.o
 spaceship: CMakeFiles/spaceship.dir/src/weapon.cpp.o
 spaceship: CMakeFiles/spaceship.dir/build.make
 spaceship: CMakeFiles/spaceship.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable spaceship"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/storage/emulated/0/spaceship/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable spaceship"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spaceship.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

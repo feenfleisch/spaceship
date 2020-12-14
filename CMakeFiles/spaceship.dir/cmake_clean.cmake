@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/spaceship.dir/src/drive.cpp.o"
   "CMakeFiles/spaceship.dir/src/hull.cpp.o"
   "CMakeFiles/spaceship.dir/src/journey.cpp.o"
   "CMakeFiles/spaceship.dir/src/main.cpp.o"
