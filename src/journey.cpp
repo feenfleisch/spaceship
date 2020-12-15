@@ -16,6 +16,8 @@ void journey::show()
 		clrscr();
 		title.show();
 		spaceship.show();
+		spaceship.mine();
+		spaceship.move();
 		usleep(800000);
 	}
 	return;

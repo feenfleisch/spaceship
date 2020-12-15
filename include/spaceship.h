@@ -2,6 +2,7 @@
 #include "weapon.h"
 #include "shield.h"
 #include "drive.h"
+#include "mining.h"
 
 #include <string>
 
@@ -16,12 +17,13 @@ class spaceship
 	weapon weapon;
 	shield shield;
 	drive drive;
+	mining mining;
 	
-	int mining;
 	int ores;
-
 	long long int distance;
 	
 	void create();
 	void show();
+	void move();
+	void mine();
 };

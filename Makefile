@@ -230,6 +230,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/spaceship.dir/build.make CMakeFiles/spaceship.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/mining.o: src/mining.cpp.o
+
+.PHONY : src/mining.o
+
+# target to build an object file
+src/mining.cpp.o:
+	$(MAKE) -f CMakeFiles/spaceship.dir/build.make CMakeFiles/spaceship.dir/src/mining.cpp.o
+.PHONY : src/mining.cpp.o
+
+src/mining.i: src/mining.cpp.i
+
+.PHONY : src/mining.i
+
+# target to preprocess a source file
+src/mining.cpp.i:
+	$(MAKE) -f CMakeFiles/spaceship.dir/build.make CMakeFiles/spaceship.dir/src/mining.cpp.i
+.PHONY : src/mining.cpp.i
+
+src/mining.s: src/mining.cpp.s
+
+.PHONY : src/mining.s
+
+# target to generate assembly for a file
+src/mining.cpp.s:
+	$(MAKE) -f CMakeFiles/spaceship.dir/build.make CMakeFiles/spaceship.dir/src/mining.cpp.s
+.PHONY : src/mining.cpp.s
+
 src/shield.o: src/shield.cpp.o
 
 .PHONY : src/shield.o
@@ -359,6 +386,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mining.o"
+	@echo "... src/mining.i"
+	@echo "... src/mining.s"
 	@echo "... src/shield.o"
 	@echo "... src/shield.i"
 	@echo "... src/shield.s"

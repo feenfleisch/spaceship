@@ -21,6 +21,11 @@
 },
 {
   "directory": "/storage/emulated/0/spaceship",
+  "command": "/data/user/0/ru.iiec.cxxdroid/files/bin/clang++   -I/storage/emulated/0/spaceship/include -I/storage/emulated/0/spaceship/src  -Wall -std=c++14 -fallow-void-main   -o CMakeFiles/spaceship.dir/src/mining.cpp.o -c /storage/emulated/0/spaceship/src/mining.cpp",
+  "file": "/storage/emulated/0/spaceship/src/mining.cpp"
+},
+{
+  "directory": "/storage/emulated/0/spaceship",
   "command": "/data/user/0/ru.iiec.cxxdroid/files/bin/clang++   -I/storage/emulated/0/spaceship/include -I/storage/emulated/0/spaceship/src  -Wall -std=c++14 -fallow-void-main   -o CMakeFiles/spaceship.dir/src/shield.cpp.o -c /storage/emulated/0/spaceship/src/shield.cpp",
   "file": "/storage/emulated/0/spaceship/src/shield.cpp"
 },

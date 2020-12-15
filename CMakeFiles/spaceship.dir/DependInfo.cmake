@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/storage/emulated/0/spaceship/src/hull.cpp" "/storage/emulated/0/spaceship/CMakeFiles/spaceship.dir/src/hull.cpp.o"
   "/storage/emulated/0/spaceship/src/journey.cpp" "/storage/emulated/0/spaceship/CMakeFiles/spaceship.dir/src/journey.cpp.o"
   "/storage/emulated/0/spaceship/src/main.cpp" "/storage/emulated/0/spaceship/CMakeFiles/spaceship.dir/src/main.cpp.o"
+  "/storage/emulated/0/spaceship/src/mining.cpp" "/storage/emulated/0/spaceship/CMakeFiles/spaceship.dir/src/mining.cpp.o"
   "/storage/emulated/0/spaceship/src/shield.cpp" "/storage/emulated/0/spaceship/CMakeFiles/spaceship.dir/src/shield.cpp.o"
   "/storage/emulated/0/spaceship/src/spaceship.cpp" "/storage/emulated/0/spaceship/CMakeFiles/spaceship.dir/src/spaceship.cpp.o"
   "/storage/emulated/0/spaceship/src/title.cpp" "/storage/emulated/0/spaceship/CMakeFiles/spaceship.dir/src/title.cpp.o"

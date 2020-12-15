@@ -11,6 +11,7 @@ CMakeFiles/spaceship.dir/src/journey.cpp.o: src/journey.cpp
 CMakeFiles/spaceship.dir/src/journey.cpp.o: include/drive.h
 CMakeFiles/spaceship.dir/src/journey.cpp.o: include/hull.h
 CMakeFiles/spaceship.dir/src/journey.cpp.o: include/journey.h
+CMakeFiles/spaceship.dir/src/journey.cpp.o: include/mining.h
 CMakeFiles/spaceship.dir/src/journey.cpp.o: include/shield.h
 CMakeFiles/spaceship.dir/src/journey.cpp.o: include/spaceship.h
 CMakeFiles/spaceship.dir/src/journey.cpp.o: include/title.h
@@ -20,10 +21,14 @@ CMakeFiles/spaceship.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/spaceship.dir/src/main.cpp.o: include/drive.h
 CMakeFiles/spaceship.dir/src/main.cpp.o: include/hull.h
 CMakeFiles/spaceship.dir/src/main.cpp.o: include/journey.h
+CMakeFiles/spaceship.dir/src/main.cpp.o: include/mining.h
 CMakeFiles/spaceship.dir/src/main.cpp.o: include/shield.h
 CMakeFiles/spaceship.dir/src/main.cpp.o: include/spaceship.h
 CMakeFiles/spaceship.dir/src/main.cpp.o: include/title.h
 CMakeFiles/spaceship.dir/src/main.cpp.o: include/weapon.h
+
+CMakeFiles/spaceship.dir/src/mining.cpp.o: src/mining.cpp
+CMakeFiles/spaceship.dir/src/mining.cpp.o: include/mining.h
 
 CMakeFiles/spaceship.dir/src/shield.cpp.o: src/shield.cpp
 CMakeFiles/spaceship.dir/src/shield.cpp.o: include/shield.h
@@ -31,6 +36,7 @@ CMakeFiles/spaceship.dir/src/shield.cpp.o: include/shield.h
 CMakeFiles/spaceship.dir/src/spaceship.cpp.o: src/spaceship.cpp
 CMakeFiles/spaceship.dir/src/spaceship.cpp.o: include/drive.h
 CMakeFiles/spaceship.dir/src/spaceship.cpp.o: include/hull.h
+CMakeFiles/spaceship.dir/src/spaceship.cpp.o: include/mining.h
 CMakeFiles/spaceship.dir/src/spaceship.cpp.o: include/shield.h
 CMakeFiles/spaceship.dir/src/spaceship.cpp.o: include/spaceship.h
 CMakeFiles/spaceship.dir/src/spaceship.cpp.o: include/weapon.h

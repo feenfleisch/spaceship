@@ -12,6 +12,7 @@ CMakeFiles/spaceship.dir/src/journey.cpp.o
  include/drive.h
  include/hull.h
  include/journey.h
+ include/mining.h
  include/shield.h
  include/spaceship.h
  include/title.h
@@ -21,10 +22,14 @@ CMakeFiles/spaceship.dir/src/main.cpp.o
  include/drive.h
  include/hull.h
  include/journey.h
+ include/mining.h
  include/shield.h
  include/spaceship.h
  include/title.h
  include/weapon.h
+CMakeFiles/spaceship.dir/src/mining.cpp.o
+ /storage/emulated/0/spaceship/src/mining.cpp
+ include/mining.h
 CMakeFiles/spaceship.dir/src/shield.cpp.o
  /storage/emulated/0/spaceship/src/shield.cpp
  include/shield.h
@@ -32,6 +37,7 @@ CMakeFiles/spaceship.dir/src/spaceship.cpp.o
  /storage/emulated/0/spaceship/src/spaceship.cpp
  include/drive.h
  include/hull.h
+ include/mining.h
  include/shield.h
  include/spaceship.h
  include/weapon.h

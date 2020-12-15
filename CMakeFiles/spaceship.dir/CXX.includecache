@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/storage/emulated/0/spaceship/src/journey.cpp
+journey.h
+/storage/emulated/0/spaceship/src/journey.h
+conio.h
+-
+
+/storage/emulated/0/spaceship/src/main.cpp
+journey.h
+/storage/emulated/0/spaceship/src/journey.h
+stdlib.h
+-
+time.h
+-
+
 /storage/emulated/0/spaceship/src/spaceship.cpp
 spaceship.h
 /storage/emulated/0/spaceship/src/spaceship.h
@@ -26,6 +40,18 @@ string
 vector
 -
 
+include/journey.h
+title.h
+include/title.h
+spaceship.h
+include/spaceship.h
+
+include/mining.h
+string
+-
+vector
+-
+
 include/shield.h
 string
 -
@@ -41,8 +67,12 @@ shield.h
 include/shield.h
 drive.h
 include/drive.h
+mining.h
+include/mining.h
 string
 -
+
+include/title.h
 
 include/weapon.h
 string
