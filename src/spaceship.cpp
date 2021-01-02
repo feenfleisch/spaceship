@@ -86,14 +86,94 @@ void spaceship::show()
 	gotoxy(50, 32);
 	cout << drive.name;
 	gotoxy(50, 34);
-	cout << "level: " << shield.level;
+	cout << "level: " << drive.level;
 	gotoxy(50, 36);
 	cout << "range: ";
 	cout << drive.range << endl;
-	
+
 	gotoxy(50, 39);
 	cout << "> distance: " << distance << " ly" << endl;
 
+	return;
+}
+
+void spaceship::upgrade()
+{
+	char a;
+
+	gotoxy(1, 7);
+	cout << "> upgrade" << endl;
+	gotoxy(1, 10);
+	cout << "> [1] hull" << endl;
+	gotoxy(1, 12);
+	cout << "> [2] shield" << endl;
+	gotoxy(1, 14);
+	cout << "> [3] drive" << endl;
+	gotoxy(1, 16);
+	cout << "> [4] mining" << endl;
+
+	gotoxy(17, 7);
+	cout << "> costs" << endl;
+	gotoxy(17, 10);
+	cout << hull.max * hull.level << " ores" << endl;
+	gotoxy(17, 12);
+	cout << shield.max * shield.regeneration * shield.level
+	<< " ores" << endl;
+	gotoxy(17, 14);
+	cout << drive.range * drive.level << " ores" << endl;
+	gotoxy(17, 16);
+	cout << mining.rate * mining.level << " ores" << endl;
+	cout << endl;
+	if (kbhit())
+	{
+		a = getch();
+		if (a == '1')
+		{
+			if (ores < hull.max * hull.level)
+				return;
+			else
+			{
+				hull.max += 1;
+				hull.level += 1;
+				ores -= hull.max * hull.level;
+			}
+		}
+		if (a == '2')
+		{
+			if (ores < shield.max * shield.regeneration
+			* shield.level)	
+				return;
+			else
+			{
+				shield.max += 1;
+				shield.regeneration += 1;
+				shield.level += 1;
+				ores -= shield.max * shield.level;
+			}
+		}
+		if (a == '3')
+		{
+			if (ores < drive.range * drive.level)
+				return;
+			else
+			{
+				drive.range += 1;
+				drive.level += 1;
+				ores -= drive.range * drive.level;
+			}
+		}
+		if (a == '4')
+		{
+			if (ores < mining.rate * mining.level)
+				return;
+			else
+			{
+				mining.rate += 1;
+				mining.level += 1;
+				ores -= mining.rate * mining.level;
+			}
+		}
+	}
 	return;
 }
 

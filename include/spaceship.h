@@ -24,6 +24,7 @@ class spaceship
 	
 	void create();
 	void show();
-	void move();
+	void upgrade();
 	void mine();
+	void move();
 };

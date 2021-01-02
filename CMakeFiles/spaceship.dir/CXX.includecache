@@ -20,6 +20,10 @@ stdlib.h
 time.h
 -
 
+/storage/emulated/0/spaceship/src/mining.cpp
+mining.h
+/storage/emulated/0/spaceship/src/mining.h
+
 /storage/emulated/0/spaceship/src/spaceship.cpp
 spaceship.h
 /storage/emulated/0/spaceship/src/spaceship.h

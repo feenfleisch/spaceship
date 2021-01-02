@@ -11,8 +11,10 @@ class weapon
 	"laser disruptor", "laser wave", "plasma cannon",
 	"plasma beam", "plasma disruptor", "plasma wave",
 	"tachyon cannon", "tachyon beam", "tachyon disruptor",
-	"tachyon wave", "first strike", "ripper", "stormfire",
-	"warhead", "peacemaker", "my little friend", "hydra"};
+	"tachyon wave", "solar cannon", "solar beam",
+	"solar disruptor", "solar wave", "first strike", "ripper",
+	"stormfire", "warhead", "peacemaker", "my little friend",
+	"hydra"};
 	
 	struct
 	{
